@@ -5,45 +5,115 @@
         border: 1px solid black;
         border-collapse: collapse;
     }
+    
+    .center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center th,
+.center td {
+    text-align: center;
+    padding: 10px;
+}
 </style>
 
     <title>About Us</title>
-<body>
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Technology Project - About Page for Synapse Group">
+    <meta name="keywords" content="COS10026, Web Technology Project, About Page, Synapse, Swinburne, HTML">
+    <meta name="author" content="The Synapse Team">
+    </head>
+    <body>
+
+
+    <!-- classes schedule & name of group -->
+<h2>About Our Group</h2>
+<ul>
+    <li>Group Name: Synapse</li>
+    <li>Class Schedule
+        <ul>
+            <li>
+                Sunday
+                <ul>
+                    <li><em>9:00 - 10:00 AM</em></li>
+                </ul>
+            </li>
+            <li>
+                Tuesday
+                <ul>
+                    <li><em>9:00 - 11:00 AM</em></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<!-- contributions (to be filled) -->
     <h3>Project Contributions</h3>
     <dt>Member 1</dt>
     <dd>Contribution 1</dd>
+    <br>
 
     <dt>Member 2</dt>
     <dd>Contribution 2</dd>
+    <br>
 
     <dt>Member 3</dt>
     <dd>Contribution 3</dd>
+    <br>
 
     <dt>Member 4</dt>
     <dd>Contribution 4</dd>
 </dl>
 
+
+<!-- quotes -->
     <h3>Group Quotations!</h3>
 <dl>
     <dt><strong>Amani Aly</strong></dt>
+    <br>
     <dd><em>“Be loud, stand tall, leave a mark.”</em></dd>
     <dd lang="ar" dir="auto"> <em>«ارفع صوتك، قف بثبات، واترك أثرًا.»</em> </dd>
     
     <dt><strong>Abdullah Maithalouni</strong></dt>
+    <br>
     <dd><em>“The ruling class fears education because it makes obedience impossible.”</em></dd>
     <dd lang="ar" dir="auto"> <em>  «تخشى الطبقة الحاكمة التعليم لأنه يجعل الطاعة مستحيلة.»</em> </dd>
 
     <dt><strong>Youssof Hussein</strong></dt>
+    <br>
     <dd><em>“You don't have to see the whole staircase, just take the first step.”</em></dd>
     <dd lang="ar" dir="auto"> <em> «ليس عليك أن ترى السُّلَّم كله، فقط خذ الخطوة الأولى.»</em> </dd>
 
     <dt><strong>Abrar Salahuddin</strong></dt>
+    <br>
     <dd><em>“Those who keep trying are never truly defeated.”</em></dd>
     <dd lang="ur" dir="auto"> <em>ہمت کرنے والوں کی کبھی ہار نہیں ہوتی۔</em> </dd>
+    <br>
+    <br>
 </dl>
 
-<table>
-    <caption><h3>Fun facts about our members</h3></caption>
+
+<!-- group photo -->
+<figure class="center">
+    
+    <img src="grouphoto.png" alt="The Synapse Team" width="500" height="300">
+
+    <figcaption><strong><em>They Synapse Work Team</em></strong></figcaption>
+
+</figure>
+
+<br>
+<br>
+
+
+
+<!-- table of facts :P -->
+<table class="center">
+    <caption><h3>Fun facts about our members</h3></caption> 
     <tr>
         <th>Member Name</th>
         <th>Member Fact!</th>
